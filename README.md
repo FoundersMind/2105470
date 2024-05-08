@@ -20,7 +20,6 @@ curl -X GET \
   'http://test-server.com/api/endpoint' \
   -H 'Authorization: Bearer your-access-token'
 
-
 ## Average Calculator Microservice
 
 ### Introduction:
