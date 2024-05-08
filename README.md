@@ -33,6 +33,10 @@ This microservice calculates the average of numbers fetched from a test server b
    - `numberid`: The qualified number ID ('p' for prime, 'f' for Fibonacci, 'e' for even, 'r' for random numbers).
    - `access_token`: Optional. The access token for authentication.
 4. The response includes the fetched numbers, the previous and current state of the window, and the average of the current window numbers.
+5.Here i am getting service unavailable
+![Screenshot 2024-05-08 121806](https://github.com/Sakhtiman/2105470/assets/134630688/16d426b4-d69c-4897-b2d7-4001dacc5c57)
+6.So i take manually and got this output which is correct
+![Screenshot 2024-05-08 113220](https://github.com/Sakhtiman/2105470/assets/134630688/38db7030-15ad-48f2-9a94-6499943853e1)
 
 ### Parameters:
 - `numberid`: The qualified number ID ('p' for prime, 'f' for Fibonacci, 'e' for even, 'r' for random numbers).
@@ -41,10 +45,6 @@ This microservice calculates the average of numbers fetched from a test server b
 ### Response:
 - The response includes the fetched numbers, the previous and current state of the window, and the average of the current window numbers.
 
-### Additional Notes:
-- Ensure that the access token is provided for authentication if required.
-- The microservice maintains a window size for storing fetched numbers and calculates the average accordingly.
-- Error handling is implemented to handle exceptions during number retrieval.
 
 ## Top Products HTTP Microservice
 
@@ -62,6 +62,8 @@ This microservice provides a public API for retrieving top products from multipl
    - `sort_order`: Optional. Specify the sort order as ascending or descending.
 4. Optionally, send a GET request to `/categories/{categoryname}/products/{productid}` to get details of a specific product.
    - `productid`: The unique ID of the product.
+Getting error 404 because Api fetching is not available from your side due to server load
+![image](https://github.com/Sakhtiman/2105470/assets/134630688/d6293059-399a-454e-bd5b-092b3de6e13b)
 
 ### Parameters:
 - `categoryname`: The name of the product category.
