@@ -1,5 +1,4 @@
-
-README for "Develop Average Calculator Microservice"
+Develop Average Calculator Microservice
 Introduction:
 This microservice calculates the average of numbers fetched from a test server based on specified criteria such as prime, Fibonacci, even, or random numbers.
 
@@ -19,7 +18,7 @@ Additional Notes:
 Ensure the access token is provided for authentication.
 The microservice handles requests within 500 milliseconds.
 The window size for storing numbers can be configured.
-README for "Develop Top Products HTTP Microservice"
+Develop Top Products HTTP Microservice
 Introduction:
 This microservice retrieves top products from various e-commerce companies based on specified category, price range, and sorting criteria.
 
@@ -40,4 +39,3 @@ Additional Notes:
 The microservice handles pagination for large result sets.
 Sorting criteria and order can be specified for customized results.
 Ensure the correct category name is provided in the request.
-These README files provide a guide on how to use each microservice along with relevant parameters, responses, and additional notes.
